@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My Application</title>
+</head>
+<body>
+    <h1>Number: <span th:text="${number}"></span></h1>
+    <form method="post" action="/increment">
+        <button type="submit">Increment</button>
+    </form>
+</body>
+</html>
